@@ -1,0 +1,21 @@
+body
+{
+    background-color: black;
+
+}
+.contain
+{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 60px 60px 60px;
+    
+}
+
+.item
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end:4;
+}

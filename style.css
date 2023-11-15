@@ -1,0 +1,22 @@
+body
+
+
+
+.item
+{
+    width:150px;
+    height:150px;
+    background-color:chartreuse;
+    padding: 16px;
+    font-weight:700;
+    color:coral;
+    text align: center;
+    border: 10px solid black;
+    border-radius:10px;
+}
+
+.container
+{
+    display:flex;
+    justify-content:flex-end;
+}
